@@ -1,0 +1,61 @@
+@mixin buttonSize {
+  color: white;
+  background: rgba(255, 182, 65, 1);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+
+@mixin textSize {
+  font-family: Montserrat;
+  color: #3668b0;   
+}
+
+@mixin option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin optionAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin optionCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin textSizeBlue {
+  font-family: Montserrat;
+  color: #1e4b8e;
+  font-style: normal;
+}
+
+@mixin buttonCenter {
+  width: 80%;
+  height: 80px;
+  color: white;
+  font-family: Montserrat;
+  background: rgba(255, 131, 65, 1);
+  border: none;
+  font-size: 36px;
+  font-weight: 700;
+  border-radius: 43.88px;
+  margin-top: 20%;
+  cursor: pointer;
+  
+}
+
+@mixin element {
+  font-size: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  color: rgba(30, 75, 142, 1);
+  
+}
